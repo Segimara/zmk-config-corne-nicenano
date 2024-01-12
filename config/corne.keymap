@@ -61,7 +61,7 @@
             bindings = <
 &kp TAB         &mt QUESTION EXCLAMATION  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR       &kp BSPC
 &kp LEFT_SHIFT  &trans                    &trans        &trans        &trans        &trans          &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT
-&kp LCTRL       &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans     &trans            &trans             &kp SLASH      &kp GRAVE
+&kp LCTRL       &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans     &kp COMMA         &kp PERIOD         &kp SLASH      &kp GRAVE
                                                         &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
             >;
         };
