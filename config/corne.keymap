@@ -59,19 +59,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &mt QUESTION EXCLAMATION  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR  &kp BSPC
-&kp LCTRL  &trans                    &trans        &trans        &trans        &trans          &kp MINUS  &kp EQUAL  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BSLH  &kp GRAVE
-&kp LSHFT  &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp UNDER  &kp PLUS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE  &kp TILDE
-                                                   &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp TAB         &mt QUESTION EXCLAMATION  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR       &kp BSPC
+&kp LEFT_SHIFT  &trans                    &trans        &trans        &trans        &trans          &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT
+&kp LCTRL       &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans     &trans            &trans             &kp SLASH      &kp GRAVE
+                                                        &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
             >;
         };
     };
