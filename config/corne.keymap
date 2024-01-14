@@ -16,6 +16,11 @@
             bindings = <&kp CAPS>;
             key-positions = <17 18>;
         };
+
+        BluetoothLayer {
+            bindings = <&tog 3>;
+            key-positions = <4 17 7 18>;
+        };
     };
 
     keymap {
@@ -44,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2          &kp N3        &kp N4           &kp N5          &kp N6          &kp N7        &kp N8        &kp N9        &kp N0  &kp BSPC
-&kp LSHFT   &kp LEFT      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans          &bt BT_CLR_ALL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
-&kp LCTRL   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4    &bt BT_CLR      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                                          &kp LGUI      &trans           &kp SPACE       &kp RET         &trans        &kp RALT
+&kp ESCAPE  &kp N1    &kp N2          &kp N3        &kp N4           &kp N5       &kp N6          &kp N7        &kp N8        &kp N9        &kp N0  &kp BSPC
+&kp LSHFT   &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp F5       &bt BT_CLR_ALL  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&kp LCTRL   &trans    &trans          &kp LA(F4)    &kp F10          &kp F11      &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                                      &kp LGUI      &trans           &kp SPACE    &kp RET         &trans        &kp RALT
             >;
         };
 
@@ -59,10 +64,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &mt QUESTION EXCLAMATION  &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR       &kp BSPC
-&kp LEFT_SHIFT  &trans                    &trans        &trans        &trans        &trans          &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT
-&kp LCTRL       &bt BT_SEL 0              &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans     &trans     &kp COMMA         &kp PERIOD         &kp SLASH      &kp GRAVE
-                                                        &kp LGUI      &trans        &kp SPACE       &kp RET    &trans     &kp RALT
+&kp TAB         &mt QUESTION EXCLAMATION  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY   &kp LPAR           &kp RPAR       &kp BSPC
+&kp LEFT_SHIFT  &trans                    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT
+&kp LCTRL       &trans                    &trans  &trans    &trans    &trans       &trans     &trans     &kp COMMA         &kp PERIOD         &kp SLASH      &kp GRAVE
+                                                  &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_CLR_ALL    &trans        &bt BT_CLR    &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
