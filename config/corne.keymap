@@ -48,10 +48,10 @@
 
         LOWERandTileFocus {
             bindings = <
-&kp ESCAPE  &kp F4   &kp DEL          &kp UP_ARROW        &kp BACKSPACE  &kp ENTER       &kp NUMBER_1  &kp E     &kp UP    &kp Q      &kp V  &kp BSPC
-&kp LSHFT   &kp F5   &kp LEFT         &kp DOWN_ARROW      &kp RIGHT      &kp SPACE       &kp NUMBER_2  &kp LEFT  &kp DOWN  &kp RIGHT  &kp H  &kp R
-&kp LCTRL   &kp F10  &kp PRINTSCREEN  &kp LC(SCROLLLOCK)  &kp LG(V)      &kp LEFT_WIN    &kp NUMBER_3  &kp F1    &kp F2    &kp F3     &kp S  &trans
-                                      &kp LEFT_ALT        &to 0          &kp SPACE       &kp CAPSLOCK  &to 1     &to 5
+&kp ESCAPE  &kp F4   &kp DEL          &kp UP_ARROW        &kp BACKSPACE  &kp ENTER       &kp NUMBER_1  &kp E     &kp UP           &kp Q      &kp V  &kp ESC
+&kp LSHFT   &kp F5   &kp LEFT         &kp DOWN_ARROW      &kp RIGHT      &kp SPACE       &kp NUMBER_2  &kp LEFT  &kp DOWN         &kp RIGHT  &kp H  &kp R
+&kp LCTRL   &kp F10  &kp PRINTSCREEN  &kp LC(SCROLLLOCK)  &kp LG(V)      &kp LEFT_WIN    &kp NUMBER_3  &kp F1    &kp F2           &kp F3     &kp S  &kp RALT
+                                      &kp LEFT_ALT        &to 0          &kp SPACE       &kp CAPSLOCK  &to 1     &kp RIGHT_SHIFT
             >;
         };
 
@@ -85,15 +85,6 @@
 &kp LEFT_SHIFT  &kp F6  &kp F7  &kp F8        &kp F9   &kp F10    &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL       &trans  &trans  &kp F11       &kp F12  &trans     &trans  &trans  &trans  &trans  &trans  &trans
                                 &kp LEFT_ALT  &to 0    &trans     &trans  &trans  &trans
-            >;
-        };
-
-        TilesMove {
-            bindings = <
-&kp ESCAPE  &kp F4   &kp DEL          &kp UP_ARROW        &kp BACKSPACE  &kp ENTER       &kp LS(NUMBER_1)  &kp LS(E)     &kp LS(UP)    &kp LS(Q)      &kp V  &kp BSPC
-&kp LSHFT   &kp F5   &kp LEFT         &kp DOWN_ARROW      &kp RIGHT      &kp SPACE       &kp LS(NUMBER_2)  &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT)  &kp H  &kp R
-&kp LCTRL   &kp F10  &kp PRINTSCREEN  &kp LC(SCROLLLOCK)  &kp LG(V)      &kp LEFT_WIN    &kp LS(NUMBER_3)  &kp LS(F1)    &kp LS(F2)    &kp LS(F3)     &kp S  &trans
-                                      &kp LEFT_ALT        &to 0          &kp SPACE       &kp CAPSLOCK      &to 1         &to 5
             >;
         };
     };
