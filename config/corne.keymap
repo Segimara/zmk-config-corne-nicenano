@@ -48,10 +48,10 @@
 
         LOWER {
             bindings = <
-&kp ESCAPE  &kp F4  &kp DEL   &kp UP_ARROW    &kp BACKSPACE  &kp ENTER       &kp PRINTSCREEN  &none     &kp PAGE_UP    &none    &none  &kp PRINTSCREEN
-&kp LSHFT   &kp F5  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp HOME        &kp END          &kp HOME  &kp PAGE_DOWN  &kp END  &none  &kp SCROLLLOCK
-&kp LCTRL   &kp Z   &kp X     &kp C           &kp V          &kp LEFT_WIN    &none            &none     &none          &none    &none  &none
-                              &kp LEFT_ALT    &to 0          &lt 2 SPACE     &kp BACKSPACE    &to 0     &kp ENTER
+&kp ESCAPE  &kp F4  &kp DEL   &kp UP_ARROW    &kp BACKSPACE  &kp ENTER       &kp F1         &kp F2   &kp F3     &kp F4   &kp F5   &kp PRINTSCREEN
+&kp LSHFT   &kp F5  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp HOME        &kp END        &kp F6   &kp F7     &kp F8   &kp F9   &kp SCROLLLOCK
+&kp LCTRL   &kp Z   &kp X     &kp C           &kp V          &kp LEFT_WIN    &kp F10        &kp F11  &kp F12    &kp F13  &kp F14  &none
+                              &kp LEFT_ALT    &to 0          &lt 2 SPACE     &kp BACKSPACE  &to 0    &kp ENTER
             >;
         };
 
