@@ -87,5 +87,14 @@
                                 &kp LEFT_ALT  &to 0    &trans             &trans  &trans  &trans
             >;
         };
+
+        layer_5 {
+            bindings = <
+&kp ESC  &trans  &kp Q  &kp W         &kp E  &kp R        &trans         &trans    &kp UP     &trans     &trans  &trans
+&trans   &trans  &kp A  &kp S         &kp D  &kp F        &trans         &kp LEFT  &kp DOWN   &kp RIGHT  &trans  &trans
+&trans   &trans  &kp Z  &kp X         &kp C  &kp V        &trans         &trans    &trans     &trans     &trans  &trans
+                        &kp LEFT_ALT  &mo 0  &kp SPACE    &kp BACKSPACE  &mo 0     &kp ENTER
+            >;
+        };
     };
 };
