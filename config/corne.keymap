@@ -49,19 +49,19 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y          &kp U  &kp I        &kp O    &kp P     &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H          &kp J  &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N          &kp M  &kp COMMA    &kp DOT  &kp FSLH  &lt 4 RALT
-                              &kp LEFT_ALT  &to 1  &kp SPACE    &kp BACKSPACE  &to 2  &lt 1 ENTER
+&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y          &kp U  &kp I      &kp O    &kp P     &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G        &kp H          &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N          &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RALT
+                              &kp LEFT_ALT  &mo 2  &kp SPACE    &kp BACKSPACE  &mo 1  &kp ENTER
             >;
         };
 
         LOWER {
             bindings = <
-&kp ESCAPE  &kp F4  &kp DEL   &kp UP_ARROW    &kp BACKSPACE  &kp ENTER       &kp F1         &kp F2   &kp F3     &kp F4   &kp F5   &kp PRINTSCREEN
-&kp LSHFT   &kp F5  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT      &kp HOME        &kp END        &kp F6   &kp F7     &kp F8   &kp F9   &kp SCROLLLOCK
-&kp LCTRL   &kp Z   &kp X     &kp C           &kp V          &kp LEFT_WIN    &kp F10        &kp F11  &kp F12    &kp F13  &kp F14  &none
-                              &kp LEFT_ALT    &to 0          &lt 2 SPACE     &kp BACKSPACE  &to 0    &kp ENTER
+&kp ESCAPE  &kp F1    &kp F2    &kp F3        &kp F4          &kp F5          &kp F6         &kp F7          &kp F8        &kp F9     &kp F10  &kp PRINTSCREEN
+&kp LSHFT   &kp HOME  &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT       &kp LEFT       &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp END  &kp F11
+&kp LCTRL   &kp Z     &kp X     &kp C         &kp V           &kp LEFT_WIN    &kp N6         &kp N7          &kp N8        &kp N9     &kp N0   &kp F12
+                                &kp LEFT_ALT  &trans          &lt 2 SPACE     &kp BACKSPACE  &trans          &kp ENTER
             >;
         };
 
@@ -73,10 +73,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp N1         &kp N2            &kp N3             &kp N4     &kp N5       &kp CARET       &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none          &kp BSLH
-&kp LEFT_SHIFT  &kp N6         &kp N7            &kp N8             &kp N9     &kp N0       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON  &kp SQT
-&kp LCTRL       &kp SEMICOLON  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL    &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SLASH      &kp GRAVE
-                                                 &kp LEFT_ALT       &to 0      &kp SPACE    &kp BACKSPACE   &to 0          &kp ENTER
+&kp ESC         &kp N1         &kp N2    &kp N3        &kp N4     &kp N5       &kp N6          &kp N7     &kp N8            &kp N9             &kp N0         &kp BSLH
+&kp LEFT_SHIFT  &kp BSLH       &kp LBKT  &kp RBKT      &kp LBKT   &kp RBKT     &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON  &kp SQT
+&kp LCTRL       &kp SEMICOLON  &kp APOS  &kp FSLH      &kp MINUS  &kp EQUAL    &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp SLASH      &kp GRAVE
+                                         &kp LEFT_ALT  &to 0      &kp SPACE    &kp DELETE      &to 0      &kp ENTER
             >;
         };
 
